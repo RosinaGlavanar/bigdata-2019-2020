@@ -27,7 +27,6 @@ var generatEmployees = function (count) {
             experience: experience,
             position: getRandom(posts),
             department: getRandom(departments),
-            departmentHistory: getСareer(),
             fired: Math.random() >= 0.5,
             motherhood: Math.random() >= 0.5,
             leave: Math.random() >= 0.5
