@@ -75,6 +75,8 @@ function getRandom(input) {
     return input[Math.floor((Math.random() * input.length))];
 }
 
+//////////////////////////////////////////////////////////////////
+
 // 1.1
 db.employees.distinct("department")
 
