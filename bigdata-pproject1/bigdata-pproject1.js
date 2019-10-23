@@ -218,7 +218,7 @@ departments.forEach(function (department) {
 
 //3.9
 var result = [];
-var departments = ["operations", "crediten analysis"];
+var departments = ["unicredit", "dsc", "international"];
 departments.forEach(function (department) {
     result.push({
         department: db.employees.aggregate([{
@@ -233,7 +233,7 @@ departments.forEach(function (department) {
 
 //3.10
 var result = [];
-var departments = ["operations", "crediten analysis"];
+var departments = ["unicredit", "dsc", "international"];
 departments.forEach(function (department) {
     result.push({
         department: db.employees.aggregate([{
